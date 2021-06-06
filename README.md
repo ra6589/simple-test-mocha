@@ -3,7 +3,7 @@
 this is just a simple test for familiar with mocha
 Source: https://javascript.info/testing-mocha
 
-Automated testing with Mocha
+Automated testing with Mocha.
 
 Automated testing will be used in further tasks, and it’s also widely used in real projects.
 Why do we need tests?
