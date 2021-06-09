@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!-- add mocha css, to show results -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
@@ -20,22 +21,22 @@
 
   <script>
     function pow(x, n) { //math.pow()
-        if(n<=0) return NaN;
-        if(Math.round(n)!=n) return NaN;
-      return x**n;/* function code is to be written, empty now */
+      if (n <= 0) return NaN;
+      if (Math.round(n) != n) return NaN;
+      return x ** n; /* function code is to be written, empty now */
     }
-    function calculateSurface(radius){
-        let circleSurface= Math.PI* (radius**2);
-        return circleSurface;
+
+    function calculateSurface(radius) {
+      let circleSurface = Math.PI * (radius ** 2);
+      return circleSurface;
     }
-    
   </script>
 
   <!-- the script with tests (describe, it...) -->
   <script src="test.js"></script>
 
   <!-- the element with id="mocha" will contain test results -->
-  <div id="mocha"></div>
+  <div id="mocha"> </div>
 
   <!-- run tests! -->
   <script>
